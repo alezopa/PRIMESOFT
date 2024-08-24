@@ -1,0 +1,17 @@
+D:\Projetos\PRIMESOFT\Questao2\bin\Debug\net6.0\Questao2.exe
+D:\Projetos\PRIMESOFT\Questao2\bin\Debug\net6.0\Questao2.deps.json
+D:\Projetos\PRIMESOFT\Questao2\bin\Debug\net6.0\Questao2.runtimeconfig.json
+D:\Projetos\PRIMESOFT\Questao2\bin\Debug\net6.0\Questao2.dll
+D:\Projetos\PRIMESOFT\Questao2\bin\Debug\net6.0\Questao2.pdb
+D:\Projetos\PRIMESOFT\Questao2\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.csproj.AssemblyReference.cache
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.AssemblyInfoInputs.cache
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.AssemblyInfo.cs
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.csproj.CoreCompileInputs.cache
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.csproj.CopyComplete
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.dll
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\refint\Questao2.dll
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.pdb
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\Questao2.genruntimeconfig.cache
+D:\Projetos\PRIMESOFT\Questao2\obj\Debug\net6.0\ref\Questao2.dll

@@ -1,0 +1,15 @@
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\Questao1.csproj.AssemblyReference.cache
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\Questao1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\Questao1.AssemblyInfoInputs.cache
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\Questao1.AssemblyInfo.cs
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\Questao1.csproj.CoreCompileInputs.cache
+D:\Projetos\PRIMESOFT\Questao1\bin\Debug\net6.0\Questao1.exe
+D:\Projetos\PRIMESOFT\Questao1\bin\Debug\net6.0\Questao1.deps.json
+D:\Projetos\PRIMESOFT\Questao1\bin\Debug\net6.0\Questao1.runtimeconfig.json
+D:\Projetos\PRIMESOFT\Questao1\bin\Debug\net6.0\Questao1.dll
+D:\Projetos\PRIMESOFT\Questao1\bin\Debug\net6.0\Questao1.pdb
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\Questao1.dll
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\Questao1.pdb
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\Questao1.genruntimeconfig.cache
+D:\Projetos\PRIMESOFT\Questao1\obj\Debug\net6.0\ref\Questao1.dll
+D:\Projetos\PRIMESOFT\Questao1\bin\Debug\net6.0\ref\Questao1.dll
