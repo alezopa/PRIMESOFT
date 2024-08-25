@@ -27,8 +27,6 @@ namespace Questao5.Application.Handlers
             con.Open();
 
 
-            //var query = "Insert into movimento (idcontacorrente,datamovimento,tipomovimento ,valor ) " +
-            //    " Values (@idcontacorrente,@datamovimento,@tipomovimento ,@valor)";
             var query = "Insert into movimento (idcontacorrente,datamovimento,tipomovimento ,valor ) " +
               " Values (" +  "'" + request.IdContaCorrente + "'" + "," + "'" +  DateTime.Now.ToShortDateString() + "'" + "," + "'" + request.TipoMovimento  + "'" + "," + request.Valor.ToString() + ")";
 
