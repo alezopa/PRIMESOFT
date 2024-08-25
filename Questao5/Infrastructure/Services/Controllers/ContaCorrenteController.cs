@@ -1,5 +1,9 @@
+using Dapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.Sqlite;
 using Questao5.Application.Commands.Requests;
+using Questao5.Application.Commands.Responses;
+using Questao5.Application.Handlers;
 using Questao5.Domain.Entities;
 
 
@@ -11,10 +15,13 @@ namespace Questao5.Infrastructure.Services.Controllers
     {
         
         private readonly ILogger<ContaCorrenteController> _logger;
+        private readonly ISaldoContaHandler _saldoContaHandler;
 
-        public ContaCorrenteController(ILogger<ContaCorrenteController> logger)
+        public ContaCorrenteController(ILogger<ContaCorrenteController> logger, ISaldoContaHandler saldoContaHandler)
         {
             _logger = logger;
+            _saldoContaHandler = saldoContaHandler;
+
         }
 
         [HttpGet(Name = "ContaCorrente")]
@@ -29,10 +36,14 @@ namespace Questao5.Infrastructure.Services.Controllers
 
 
         [HttpGet("SaldoConta/{idConta}")]
-        public async Task<ActionResult<decimal>> Get(int idConta)
+        public async Task<ActionResult<SaldoResponse>> Get(string idConta)
         {
 
-            return Ok(100);
+
+            var _resultado =  _saldoContaHandler.HandleSaldo(idConta);
+  
+
+            return Ok(_resultado);
         }
 
 
@@ -44,9 +55,9 @@ namespace Questao5.Infrastructure.Services.Controllers
                 return BadRequest("Moviemntacao é null");
             }
 
+            var _resultado = _saldoContaHandler.HandleMovimentacao(movimentacao);
 
-
-            return Ok();
+            return Ok(_resultado);
         }
     }
 }

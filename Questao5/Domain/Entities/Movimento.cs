@@ -6,8 +6,8 @@
         public Movimento() { }
 
 
-        public int IdMovimento { get; set; }
-        public int IdContaCorrente { get; set; }
+        public string IdMovimento { get; set; }
+        public string IdContaCorrente { get; set; }
         public string DataMovimento { get; set; }
         public string TipoMovimento { get; set; }
 
@@ -16,5 +16,6 @@
 
         public ContaCorrente ContaCorrente { get; set; }
     }
+
 }
 

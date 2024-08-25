@@ -6,9 +6,9 @@
         public ContaCorrente() { }
 
 
-        public int IdConta { get; set; }
-        public int NumeroConta { get; set; }
-        public string NomeTitular { get; set; }
+        public string IdContaCorrente { get; set; }
+        public int Numero{ get; set; }
+        public string Nome { get; set; }
         public bool Ativo { get; set; }
 
 

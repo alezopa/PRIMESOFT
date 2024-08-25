@@ -1,4 +1,5 @@
 using MediatR;
+using Questao5.Application.Handlers;
 using Questao5.Infrastructure.Sqlite;
 using System.Reflection;
 
@@ -6,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+builder.Services.AddTransient<ISaldoContaHandler, SaldoContaHandler>();
 
 builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 
@@ -26,7 +29,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseHttpsRedirection(); 
 
 app.UseAuthorization();
 

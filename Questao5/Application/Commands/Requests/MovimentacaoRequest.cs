@@ -2,8 +2,7 @@
 {
     public class MovimentacaoRequest
     {
-        public int IdIdentificacao { get; set; }
-        public int IdContaCorrente { get; set; }
+        public string IdContaCorrente { get; set; }
         public decimal Valor { get; set; }
         public string TipoMovimento { get; set; }
     }
